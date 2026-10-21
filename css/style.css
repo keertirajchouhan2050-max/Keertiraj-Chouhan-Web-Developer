@@ -1,11 +1,7 @@
-
-*{
-      font-family: 'Roboto', sans-serif;
-
-}
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -22,69 +18,95 @@ nav div {
 nav div ul {
   display: flex;
   list-style: none;
-  gap: 24px;
+  gap: 32px;
 }
 nav div ul li a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
-
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
-}
-nav div ul li a:hover {
-  color: #d9832e;
+  letter-spacing: 1px;
 }
 nav div h1 {
-
   letter-spacing: 2px;
 }
 header {
   display: flex;
   justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px
+
 }
 header .container {
   width: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.subtitle{
-    margin: 0;
-    padding: 0;
+  gap: 32px;
 
 }
-.title{
-    padding: 0;
-    margin: 0;
-    font-size: 70px;
-
+.subtitle {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+.cotation {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+.dev {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+  letter-spacing: 24px;
+  margin-top: 18px;
+  margin-bottom: 32px;
+}
+.action{
+  display: flex;
+  column-gap: 12px;
 
 }
-.cotation{
-    margin: 0;
-    padding: 0;
-    font-size: 24px;
-    font-weight: 500;
-
-
-}
-.dev{
-    margin: 0;
-    padding: 0;
+.action button {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
     font-size: 16px;
-    color: gray;
-    letter-spacing: 2px;
-    margin-top: 18px;
-    margin-bottom: 32px;
-
+}
+.work-btn{
+  background-color: #d38433;
+  color: white;
+  border-style: none;
 
 
 }
-.action button{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
+.hire-btn{
+  background-color: white;
+  color: #d38433;
+  border-width: 3px;
+  font-style: solid;
+  border-color: #d38433;
 
+
+}
+.work-btn:hover{
+  background-color: #090A0C;
+  transition: 0.5s;
+
+
+}
+.hire-btn:hover{
+  background-color: #d38433;
+  color: white;
+  transition: 0.5s;
+  
 }
